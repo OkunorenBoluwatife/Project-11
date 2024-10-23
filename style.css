@@ -1,0 +1,46 @@
+.box1 {
+    color: blue;
+    font-weight: 900;
+    font-size: 40px;
+    width: 220px;
+    height: 10px;
+    background-color: rgb(255, 0, 0);
+    padding: 40px 40px 80px 100px;
+    border: 10px ridge rgb(255, 255, 0);
+    margin-top: 0px;
+    float: right;
+}
+
+.box2 {
+    color: rgb(5, 80, 27);
+    font-weight: 900;
+    font-size: 40px;
+    width: 220px;
+    height: 10px;
+    background-color: rgb(0, 255, 0);
+    padding: 40px 40px 80px 100px;
+    border: 10px ridge rgb(255, 0, 255);
+    margin-top: 0px;
+    float: right;
+}
+
+h1 {
+    font-size: 50px;
+    text-decoration: underline overline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(68, 0, 255);
+}
+
+body {
+    background-color: rgb(85, 30, 30);
+}
+
+h1::before {
+    content: "☠";
+    color: silver;
+}
+
+h1::after {
+    content: "☠";
+    color: silver;
+}
